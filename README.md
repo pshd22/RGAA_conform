@@ -1,2 +1,2 @@
-# RGAAconform
+# RGAA_conform
 Mettre à disposition des internautes un service web qui permette de tester le niveau de conformité d’un système d’information avec la réglementation en vigueur. Le cas échéant, permettre la création d’un tableau de bord du niveau de conformité de l’ensemble des Systèmes et indiquer ceux pouvant faire l’objet d’une sanction administrative. Étendre le dispositif pour le rendre applicable aux obligations règlementaires relative au RGPD, mentions légales ...
