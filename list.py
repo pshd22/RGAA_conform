@@ -3,6 +3,7 @@ import urllib.error
 import re
 import pandas as pd
 
+#update
 file1 = open('listesitesaccessibles.txt')
 file2 = open('listesitesaccessibles1.txt')
 url_list = []
