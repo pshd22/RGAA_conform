@@ -1,17 +1,11 @@
 import os
 import urllib.request
-from bs4 import BeautifulSoup as bs
 import pandas as pd
 import time
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.expected_conditions import visibility_of_element_located
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 import pyautogui
 import shutil
-from selenium.webdriver.chrome.options import Options
 
 df = pd.read_excel('list_access.xlsx', index_col=0)
 df = pd.concat([df, pd.DataFrame(columns=['Access'])], axis=1)
