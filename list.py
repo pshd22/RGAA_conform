@@ -84,4 +84,4 @@ for i, j in enumerate(url_list):
         df.iloc[i, 4] = e
     # print(df)
     continue
-df.to_excel('Output1.xlsx')
+df.to_excel('list_access.xlsx')
