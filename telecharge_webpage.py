@@ -25,7 +25,7 @@ for i, j in enumerate(urls):
         #check if it's downloaded
         if not os.path.exists(path):
             os.makedirs(path)
-            for jj in url:
+            for m, jj in enumerate(url):
                 jj = jj.strip('\'')
                 try:
                     ua_headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
@@ -40,15 +40,15 @@ for i, j in enumerate(urls):
                 options = webdriver.ChromeOptions()
                 # prefs = {"profile.default_content_settings.popups" : 0, 'download.default_directory': path}
                 # options.add_experimental_option('prefs', prefs)
-                driver = webdriver.Chrome(executable_path='/Users/ethanyang/chromedriver', chrome_options=options)
+                driver = webdriver.Chrome(executable_path='/Users/pascal/Downloads/chromedriver', chrome_options=options)
                 driver.get(jj)
                 action = ActionChains(driver).move_by_offset(0, 0).context_click().perform()
-                pyautogui.typewrite(['down', 'down', 'down', 'enter'])
+                pyautogui.typewrite(['e', 'enter'])
                 time.sleep(2)
                 pyautogui.typewrite(['enter'])
-                time.sleep(5)
-                # driver.close()
-                download_path = '/Users/ethanyang/Downloads'
+                time.sleep(10)
+                driver.close()
+                download_path = '/Users/pascal/Downloads'
                 filelist = os.listdir(download_path)
                 # print(filelist)
                 for file in filelist:
@@ -60,8 +60,14 @@ for i, j in enumerate(urls):
                         dst2 = os.path.join(path, file[:len(file)-4] + '_files')
                         print(src1)
                         print(dst1)
-                        shutil.move(src1, dst1)
-                        shutil.move(src2, dst2)
+                        if os.path.exists(dst1):
+                            dst1 = os.path.join(path, file[:len(file) - 4] + str(m) + '.htm')
+                            dst2 = os.path.join(path, file[:len(file) - 4] + '_files' + str(m))
+                            shutil.move(src1, dst1)
+                            shutil.move(src2, dst2)
+                        else:
+                            shutil.move(src1, dst1)
+                            shutil.move(src2, dst2)
         else:
             continue
 df.to_excel('Acess_status.xlsx')
