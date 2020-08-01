@@ -3,7 +3,7 @@ Mettre à terme à disposition des internautes un service web qui permette de te
 
 Permettre la création d’un tableau de bord du niveau de conformité de l’ensemble des Systèmes et indiquer ceux pouvant faire l’objet d’une sanction administrative. 
 
-Ce tableau de bord devra être déclinable en version compréhensible par des personnes qui ne sont pas des experts en technologie de l'informaton et traduise l'impact du non respect des systèmes d'information dont ils sont responsables en évaluant le montant de la sanction administrative prévue par la réglementation.
+Ce tableau de bord devra être déclinable en version compréhensible par des personnes qui ne sont pas des experts en technologie de l'informaton et traduire l'impact du non respect des règles de base pour les systèmes d'information dont ils sont responsables. Il pourra être évalué le montant de la sanction administrative prévue par la réglementation pour l'ensemble des site pour un ministère, une collectivité publique ou une entreprise privée entrant dans le périmètre de la loi en.
 
 Dans l'esprit il sera possible d'étendre le dispositif pour le rendre applicable aux obligations règlementaires relative au RGPD, mentions légales ... 
 
