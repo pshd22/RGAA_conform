@@ -1,9 +1,9 @@
 # RGAA_conform
-Mettre à terme à disposition des internautes un service web qui permette de tester le niveau de conformité d’un système d’information avec la réglementation en vigueur notamment celle du référentiel général d'amélioration de l'accessibilité dans la version en vigueur.
+Mettre à terme à disposition des internautes un service web qui permette de tester le niveau de conformité d’un système d’information avec la réglementation en vigueur notamment celle du référentiel général d'amélioration de l'accessibilité dans la version en vigueur. Participer à l'effort nécessaire pour que cette démarche s'inscrive naturellement dans toute mise à disposition de service public en ligne.  
 
 Permettre la création d’un tableau de bord du niveau de conformité de l’ensemble des Systèmes et indiquer ceux pouvant faire l’objet d’une sanction administrative. 
 
-Ce tableau de bord devra être déclinable en version compréhensible par des personnes qui ne sont pas des experts en technologie de l'informaton et traduire l'impact du non respect des règles de base pour les systèmes d'information dont ils sont responsables. Il pourra être évalué le montant de la sanction administrative prévue par la réglementation pour l'ensemble des site pour un ministère, une collectivité publique ou une entreprise privée entrant dans le périmètre de la loi en.
+Ce tableau de bord devra être déclinable en version compréhensible par des personnes qui ne sont pas des experts en technologie de l'informaton et traduire l'impact du non respect des règles de base pour les systèmes d'information dont ils sont responsables. Par exemple, il pourra être évalué le montant de la sanction administrative prévue par la réglementation pour l'ensemble des sites à l'échelle d'un ministère, d'une collectivité publique ou d'une entreprise privée entrant dans le périmètre de la loi en vigueur. 
 
 Dans l'esprit il sera possible d'étendre le dispositif pour le rendre applicable aux obligations règlementaires relative au RGPD, mentions légales ... 
 
