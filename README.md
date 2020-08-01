@@ -1,5 +1,9 @@
 # RGAA_conform
-Mettre à terme à disposition des internautes un service web qui permette de tester le niveau de conformité d’un système d’information avec la réglementation en vigueur. Le cas échéant, permettre la création d’un tableau de bord du niveau de conformité de l’ensemble des Systèmes et indiquer ceux pouvant faire l’objet d’une sanction administrative. Étendre le dispositif pour le rendre applicable aux obligations règlementaires relative au RGPD, mentions légales ...
+Mettre à terme à disposition des internautes un service web qui permette de tester le niveau de conformité d’un système d’information avec la réglementation en vigueur. Le cas échéant, permettre la création d’un tableau de bord du niveau de conformité de l’ensemble des Systèmes et indiquer ceux pouvant faire l’objet d’une sanction administrative. 
+
+Dans l'esprit il sera possible d'étendre le dispositif pour le rendre applicable aux obligations règlementaires relative au RGPD, mentions légales ... Tout site public se devant d'être conforme à la réglementation et la mise à disposition publique de ce type de service doit permettre à chacun d'évaluer par lui même la qualité d'un service public en ligne sans etre un expert web...
+
+Tous les contributeurs à ce projet sont bienvenus, le langage retenu est python en v3,x
 
 Un premier module list.py élabore un tableau créé à partir d'une liste de sites ou services web à tester.
 Le teste porte sur la présence d'un lien présent sur la page d'accueil qui pointe vers une page dédiée à l'accessibilité conformément au RGAA,
