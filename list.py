@@ -24,7 +24,7 @@ for i in file3:
 print(url_list)
 # url_list = ['https://www.telecom.gouv.fr']
 # dataframe
-df = pd.DataFrame(columns=['URL', 'Existence', 'Accessbilité', 'Access_URL', 'Commentaire'])
+df = pd.DataFrame(columns=['URL', 'Existence', 'Accessibilité', 'Access_URL', 'Commentaires'])
 df['URL'] = url_list
 # test all the url and write result in dataframe
 for i, j in enumerate(url_list):
